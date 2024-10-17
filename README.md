@@ -1,5 +1,34 @@
+# YOLO Object Detection and Car Tracking
 
-Here's a simple README.md for your project:
+## Overview
 
-YOLOv8 Car Detection and Tracking 🚗
-This project uses YOLOv8 for real-time car detection, tracking, and speed estimation from a video feed. It leverages computer vision techniques to analyze vehicle movement and estimate speed by tracking objects across predefined lines.
+This project implements real-time object detection and vehicle tracking using the YOLOv8 model. The system detects cars in video footage, tracks their movement, calculates their speed, and displays relevant information.
+
+## Features
+
+- Detects and tracks vehicles using the YOLOv8 model.
+- Calculates vehicle speed based on movement across defined lines.
+- Saves the video output with overlays for bounding boxes and speed information.
+- Logs car data (speed, object ID, timestamps) to a text file for analysis.
+
+## Requirements
+
+- Python 3.x
+- OpenCV
+- Ultralytics YOLO (Install using `pip install ultralytics`)
+- Pandas
+- Numpy
+
+## Installation
+
+1. Clone this repository:
+
+   ```bash
+   git clone https://github.com/yourusername/yolo-car-tracking.git
+   cd yolo-car-tracking
+
+2. Run the script:
+
+   ```bash
+   python speed.py
+
