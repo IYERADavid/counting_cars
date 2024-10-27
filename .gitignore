@@ -1,0 +1,6 @@
+.vscode
+__pycache__
+my-env
+car_details.csv
+yolov8s.pt
+veh2.mp4
